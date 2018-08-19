@@ -1,0 +1,669 @@
+{
+    "TowerPistol":{
+        "idx": 0,
+        "type": "TowerPistol",
+        "nextLevelIdx": -1,
+        "buildCost": -10,
+        "uplevelCost": -10,
+        "skinArr": [
+            {
+                "name": "wp-pistol-1@1",
+                "type": "frame",
+                "x": 0,
+                "y": 0,
+                "anchorX": 0.5,
+                "anchorY": 0.5,
+                "rotation": 0,
+                "scale": 1,
+                "color": "0@255@0"
+            }
+        ],
+        "colliderArr": [
+            {
+                "type": "CircleCollider",
+                "param": {
+                    "offset": {
+                        "type": "Vec2",
+                        "param": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    },
+                    "radius": 300
+                }
+            }
+        ],
+        "level": 1,
+        "buildTime": 5,
+        "destroyTime": 5,
+        "uplevelTime": 5,
+        "launchInterval": 0.5,
+        "bullet": {
+            "type": "BulletPistol",
+            "x": 0,
+            "y": -30,
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "scale": 1,
+            "rotation": 0,
+            "skinArr": [
+                {
+                    "name": "bullet-pistol-1@8",
+                    "type": "frame",
+                    "x": 0,
+                    "y": 0,
+                    "anchorX": 0.5,
+                    "anchorY": 0.5,
+                    "scale": 1,
+                    "rotation": 0
+                }
+            ],
+            "harm": -1,
+            "hitSkinArr": [
+                {
+                    "name": "partical/hitparticles",
+                    "type": "partical",
+                    "x": 0,
+                    "y": 0,
+                    "anchorX": 0.5,
+                    "anchorY": 0.5,
+                    "scale": 5,
+                    "playTime": 1,
+                    "zIndex": 2,
+                    "rotation": 0
+                }
+            ],
+            "colliderArr": [
+                {
+                    "type": "CircleCollider",
+                    "param": {
+                        "offset": {
+                            "type": "Vec2",
+                            "param": {
+                                "x": 0,
+                                "y": 0
+                            }
+                        },
+                        "radius": 10
+                    }
+                }
+            ],
+            "speed": 500,
+            "accelerated": 0
+        },
+        "muzzleSkinArr": [
+            {
+                "name": "muzzle-pistol-1@2",
+                "type": "frame",
+                "x": 0,
+                "y": -30,
+                "anchorX": 0.5,
+                "anchorY": 0.5,
+                "rotation": 0,
+                "scale": 1,
+                "color": "255@255@255"
+            }
+        ],
+        "discard": false
+    },
+
+    "TowerMachinegun":{
+        "idx": 0,
+        "type": "TowerMachinegun",
+        "nextLevelIdx": -1,
+        "buildCost": -10,
+        "uplevelCost": -10,
+        "skinArr": [
+            {
+                "name": "wp-machinegun-1@1",
+                "type": "frame",
+                "x": 0,
+                "y": 0,
+                "anchorX": 0.5,
+                "anchorY": 0.5,
+                "rotation": 0,
+                "scale": 1,
+                "color": "153@50@204"
+            }
+        ],
+        "colliderArr": [
+            {
+                "type": "CircleCollider",
+                "param": {
+                    "offset": {
+                        "type": "Vec2",
+                        "param": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    },
+                    "radius": 120
+                }
+            }
+        ],
+        "level": 1,
+        "buildTime": 5,
+        "destroyTime": 5,
+        "uplevelTime": 5,
+        "launchInterval": 0.5,
+        "harm": -1,
+        "muzzleSkinArr": [
+            {
+                "name": "muzzle-machinegun-1@2",
+                "type": "frame",
+                "x": 0,
+                "y": -37,
+                "anchorX": 0.5,
+                "anchorY": 0.5,
+                "rotation": 0,
+                "scale": 1,
+                "color": "255@255@255"
+            },
+            {
+                "name": "partical/gattling1",
+                "type": "partical",
+                "x": 0,
+                "y": 0,
+                "anchorX": 0.5,
+                "anchorY": 0.5,
+                "rotation": 0,
+                "scale": 5,
+                "color": "218@165@32"
+            },
+            {
+                "name": "partical/gattling",
+                "type": "partical",
+                "x": 0,
+                "y": 0,
+                "anchorX": 0.5,
+                "anchorY": 0.5,
+                "rotation": 0,
+                "scale": 5,
+                "color": "218@165@32"
+            },
+            {
+                "name": "partical/gattlingspark",
+                "type": "partical",
+                "x": 0,
+                "y": -52,
+                "anchorX": 0.5,
+                "anchorY": 0.5,
+                "scale": 5,
+                "rotation": 180,
+                "findName": "BulletMachinegun"
+            }
+        ],
+        "discard": false
+    },
+
+    "TowerLaser":{
+        "idx": 0,
+        "type": "TowerLaser",
+        "nextLevelIdx": -1,
+        "buildCost": -10,
+        "uplevelCost": -10,
+        "skinArr": [
+            {
+                "name": "wp-laser-1@1",
+                "type": "frame",
+                "atlas": "bulletui",
+                "x": 0,
+                "y": 0,
+                "anchorX": 0.5,
+                "anchorY": 0.5,
+                "rotation": 0,
+                "scale": 1,
+                "color": "255@0@0"
+            }
+        ],
+        "colliderArr": [
+            {
+                "type": "CircleCollider",
+                "param": {
+                    "offset": {
+                        "type": "Vec2",
+                        "param": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    },
+                    "radius": 300
+                }
+            }
+        ],
+        "level": 1,
+        "buildTime": 5,
+        "destroyTime": 5,
+        "uplevelTime": 5,
+        "bullet": {
+            "type": "BulletLaser",
+            "x": 0,
+            "y": -550,
+            "skinArr": [
+                {
+                    "name": "bullet-laser-1@4",
+                    "type": "frame",
+                    "x": 0,
+                    "y": 0,
+                    "anchorX": 0.5,
+                    "anchorY": 0.5,
+                    "rotation": 90,
+                    "scale": 1,
+                    "color": "255@255@255"
+                }
+            ],
+            "harm": -3,
+            "harmInterval": 0.1,
+            "hitSkinArr": [
+                {
+                    "name": "partical/groundburn",
+                    "type": "partical",
+                    "x": 0,
+                    "y": 0,
+                    "anchorX": 0.5,
+                    "anchorY": 0.5,
+                    "scale": 5,
+                    "zIndex": 2,
+                    "rotation": 0,
+                    "unique": true
+                }
+            ],
+            "colliderArr": [
+                {
+                    "type": "BoxCollider",
+                    "param": {
+                        "offset": {
+                            "type": "Vec2",
+                            "param": {
+                                "x": 0,
+                                "y": 0
+                            }
+                        },
+                        "size": {
+                            "type": "Size",
+                            "param": {
+                                "width": 14,
+                                "height": 1024
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        "muzzleSkinArr": [
+            {
+                "name": "muzzle-laser-1@2",
+                "type": "frame",
+                "x": 0,
+                "y": -50,
+                "anchorX": 0.5,
+                "anchorY": 0.5,
+                "rotation": 90,
+                "scale": 1,
+                "color": "255@255@255"
+            }
+        ],
+        "discard": false
+    },
+
+    "TowerGuidemissile":{
+        "idx": 3,
+        "type": "TowerGuidemissile",
+        "nextLevelIdx": -1,
+        "buildCost": -10,
+        "uplevelCost": -10,
+        "skinArr": [
+            {
+                "name": "wp-guidemissle-1@1",
+                "type": "frame",
+                "x": 0,
+                "y": 0,
+                "anchorX": 0.5,
+                "anchorY": 0.5,
+                "rotation": 0,
+                "scale": 1,
+                "color": "0@0@255"
+            }
+        ],
+        "colliderArr": [
+            {
+                "type": "CircleCollider",
+                "param": {
+                    "offset": {
+                        "type": "Vec2",
+                        "param": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    },
+                    "radius": 300
+                }
+            }
+        ],
+        "level": 1,
+        "buildTime": 5,
+        "destroyTime": 5,
+        "uplevelTime": 5,
+        "launchInterval": 3,
+        "bullet": {
+            "type": "BulletGuidemissile",
+            "x": 0,
+            "y": -30,
+            "skinArr": [
+                {
+                    "name": "bullet-guidemissle-1@1",
+                    "type": "frame",
+                    "x": 0,
+                    "y": 0,
+                    "anchorX": 0.5,
+                    "anchorY": 0.5,
+                    "rotation": 90,
+                    "scale": 2,
+                    "color": "0@0@255"
+                },
+                {
+                    "name": "partical/rocketsmoke1",
+                    "type": "partical",
+                    "x": 0,
+                    "y": 40,
+                    "anchorX": 0.5,
+                    "anchorY": 0.5,
+                    "rotation": 0,
+                    "scale": 5,
+                    "color": "0@0@255"
+                }
+            ],
+            "hitSkinArr": [
+                {
+                    "name": "partical/hitparticles_rocket",
+                    "type": "partical",
+                    "x": 0,
+                    "y": 0,
+                    "anchorX": 0.5,
+                    "anchorY": 0.5,
+                    "scale": 10,
+                    "zIndex": 2,
+                    "rotation": 0
+                }
+            ],
+            "colliderArr": [
+                {
+                    "type": "CircleCollider",
+                    "param": {
+                        "offset": {
+                            "type": "Vec2",
+                            "param": {
+                                "x": 0,
+                                "y": 0
+                            }
+                        },
+                        "radius": 30
+                    }
+                }
+            ],
+            "harm": -100,
+            "speed": 200,
+            "adjustInterval": 0.1,
+            "adjustAng": 2
+        },
+        "discard": false
+    },
+
+    "TowerSlowDown":{
+        "idx": 0,
+        "type": "TowerSlowDown",
+        "nextLevelIdx": -1,
+        "buildCost": -10,
+        "uplevelCost": -10,
+        "skinArr": [
+            {
+                "name": "wp-slowdown-1@1",
+                "type": "frame",
+                "x": 0,
+                "y": 0,
+                "anchorX": 0.5,
+                "anchorY": 0.5,
+                "rotation": 0,
+                "scale": 1,
+                "color": "255@255@0"
+            }
+        ],
+        "colliderArr": [
+            {
+                "type": "CircleCollider",
+                "param": {
+                    "offset": {
+                        "type": "Vec2",
+                        "param": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    },
+                    "radius": 300
+                }
+            }
+        ],
+        "level": 1,
+        "buildTime": 5,
+        "destroyTime": 5,
+        "uplevelTime": 5,
+        "hitSkinArr": [
+            {
+                "name": "hit-slowdown-1@8",
+                "type": "frame",
+                "x": 0,
+                "y": 0,
+                "anchorX": 0.5,
+                "anchorY": 0.5,
+                "scale": 1,
+                "zIndex": 2,
+                "rotation": 0,
+                "unique": true,
+                "interval": 0.1,
+                "color": "255@0@0"
+            }
+        ],
+        "slowSpeed": -150,
+        "discard": false
+    },
+
+    "TowerFire":{
+        "idx": 4,
+        "type": "TowerFire",
+        "nextLevelIdx": -1,
+        "buildCost": -10,
+        "uplevelCost": -10,
+        "skinArr": [
+            {
+                "name": "wp-fire-1@1",
+                "type": "frame",
+                "x": 0,
+                "y": 0,
+                "anchorX": 0.5,
+                "anchorY": 0.5,
+                "rotation": 0,
+                "scale": 1,
+                "color": "255@255@255"
+            }
+        ],
+        "colliderArr": [
+            {
+                "type": "CircleCollider",
+                "param": {
+                    "offset": {
+                        "type": "Vec2",
+                        "param": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    },
+                    "radius": 300
+                }
+            }
+        ],
+        "level": 1,
+        "buildTime": 5,
+        "destroyTime": 5,
+        "uplevelTime": 5,
+        "bullet": {
+            "type": "BulletFire",
+            "x": 0,
+            "y": -28,
+            "skinArr": [
+                {
+                    "name": "partical/fire",
+                    "type": "partical",
+                    "x": 0,
+                    "y": 0,
+                    "anchorX": 0.5,
+                    "anchorY": 0.5,
+                    "rotation": 0,
+                    "scale": 5,
+                    "color": "255@255@255"
+                }
+            ],
+            "hitSkinArr": [
+                {
+                    "name": "partical/pbomb1",
+                    "type": "partical",
+                    "x": 0,
+                    "y": 0,
+                    "anchorX": 0.5,
+                    "anchorY": 0.5,
+                    "scale": 0.6,
+                    "zIndex": 2,
+                    "rotation": 0,
+                    "unique": true,
+                    "color": "255@255@255"
+                }
+            ],
+            "harm": -5,
+            "harmInterval": 0.1,
+            "colliderArr": [
+                {
+                    "type": "PolygonCollider",
+                    "param": {
+                        "offset": {
+                            "type": "Vec2",
+                            "param": {
+                                "x": 0,
+                                "y": 0
+                            }
+                        },
+                        "points": [
+                            {
+                                "type": "Vec2",
+                                "param": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            },
+                            {
+                                "type": "Vec2",
+                                "param": {
+                                    "x": -150,
+                                    "y": -270
+                                }
+                            },
+                            {
+                                "type": "Vec2",
+                                "param": {
+                                    "x": 150,
+                                    "y": -270
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "discard": false
+    },
+
+    "TowerBomb":{
+        "idx": 6,
+        "type": "TowerBomb",
+        "nextLevelIdx": -1,
+        "buildCost": -10,
+        "uplevelCost": -10,
+        "skinArr": [
+            {
+                "name": "wp-bomb-1@1",
+                "type": "frame",
+                "x": 0,
+                "y": 0,
+                "anchorX": 0.5,
+                "anchorY": 0.5,
+                "rotation": 0,
+                "scale": 1,
+                "color": "255@255@255"
+            }
+        ],
+        "level": 1,
+        "buildTime": 5,
+        "destroyTime": 5,
+        "uplevelTime": 5,
+        "buildBombTime": 0,
+        "maxBombNum": 1,
+        "handleRadius": 10000,
+        "bombEffect": {
+            "type": "BulletBombEffect",
+            "x": 0,
+            "y": 0,
+            "skinArr": [
+                {
+                    "name": "bullet-bombeffect-1@14",
+                    "type": "frame",
+                    "x": 0,
+                    "y": 0,
+                    "anchorX": 0.5,
+                    "anchorY": 0.5,
+                    "scale": 15,
+                    "rotation": 0,
+                    "interval": 0.05,
+                    "color": "255@255@255",
+                    "playCount": 1,
+                    "findName": "BulletBombEffect"
+                }
+            ],
+            "colliderArr": [
+                {
+                    "type": "CircleCollider",
+                    "param": {
+                        "offset": {
+                            "type": "Vec2",
+                            "param": {
+                                "x": 0,
+                                "y": 0
+                            }
+                        },
+                        "radius": 500
+                    }
+                }
+            ],
+            "harm": -300
+        },
+        "bullet": {
+            "type": "BulletBomb",
+            "x": 0,
+            "y": 0,
+            "minScale": 0.4,
+            "maxScale": 1.5,
+            "skinArr": [
+                {
+                    "name": "bullet-bulletbomb-1@1",
+                    "type": "frame",
+                    "x": 0,
+                    "y": 0,
+                    "anchorX": 0.5,
+                    "anchorY": 0.5,
+                    "rotation": 0,
+                    "scale": 1,
+                    "color": "255@255@255"
+                }
+            ],
+            "speed": 500
+        },
+        "discard": false
+    }
+}

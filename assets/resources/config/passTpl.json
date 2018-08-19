@@ -1,0 +1,103 @@
+{
+    "perTargetTpl":{
+        "x":0,
+        "y":0,
+        "camp":0,
+        "colliderArr": [
+            {
+                "type": "CircleCollider",
+                "param": {
+                    "offset": {
+                        "type": "Vec2",
+                        "param": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    },
+                    "radius": 50
+                }
+            }
+        ]
+    },
+    "perBornTpl":{
+        "x":0,
+        "y":0,
+        "camp":1,
+        "allRoadArr":[0],
+        "allWaveMonsterArr":[
+            {
+                "waitTime":5,
+                "refreshTime":1,
+                "monsterNum":10,
+                "monsterIdx":0
+            }
+        ]
+    },
+    "perFloorTpl":{
+        "x":0,
+        "y":0
+    },
+    "perPointTpl":{
+        "x":0,
+        "y":0,
+        "dis":0,
+        "angle":0,
+        "drawRoad":true
+    },
+    "perPassTpl":{
+        "idx":0,
+        "mapW":750,
+        "mapH":1334,
+        "isDrag":false,
+        "scale":1.0,
+        "posx":0,
+        "posy":0,
+        "initGold":10,
+        "bornSkinArr":[
+            {
+                "name":"partical/rectorhitcircleeffect",
+                "type":"partical",
+                "x":0,
+                "y":0,
+                "anchorX":0.5,
+                "anchorY":0.5,
+                "scale":4.0,
+                "zIndex": 0,
+                "rotation":0,
+                "color":"105@105@105"
+            }
+        ],
+        "targetSkinArr":[
+            {
+                "name":"partical/labbackground",
+                "type":"partical",
+                "x":0,
+                "y":0,
+                "anchorX":0.5,
+                "anchorY":0.5,
+                "scale":6.0,
+                "zIndex": 0,
+                "rotation":0,
+                "color":"255@255@255"
+            }
+        ],
+        "towerPermitArr":[],
+        "roadMap":{
+            
+        },
+        "floorArr":[
+            
+        ],
+        "bornArr":[
+            
+        ],
+        "targetArr":[
+            
+        ],
+        "campArr":[
+            {"camp":0,"hp":0},
+            {"camp":1,"hp":0}
+        ],
+        "discard":false
+    }
+}
