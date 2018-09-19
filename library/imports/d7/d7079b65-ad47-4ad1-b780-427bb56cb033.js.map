@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../assets/scripts/assets/scripts/Sdk.js"],"names":["cc","Class","ctor"],"mappings":";;;;;;AAAAA,GAAGC,KAAH,CAAS;AACLC,QADK,kBACC,CAEL;AAHI,CAAT","file":"Sdk.js","sourceRoot":"../../../../assets/scripts","sourcesContent":["cc.Class({\n    ctor(){\n        \n    },\n    \n});\n"]}

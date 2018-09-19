@@ -1,0 +1,17 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "ui.plist",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_spriteFrames": {
+    "ui-loading": {
+      "__uuid__": "c5c078bf-891d-4faf-82ba-d30a2252262c"
+    },
+    "ui-melon": {
+      "__uuid__": "13e430d8-575d-4eac-b505-f9da6412d017"
+    },
+    "ui-singleColor": {
+      "__uuid__": "13e12715-6827-415c-8dda-709c7ea93681"
+    }
+  }
+}

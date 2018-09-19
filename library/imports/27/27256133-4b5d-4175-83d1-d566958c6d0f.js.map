@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../assets/scripts/ctrl/assets/scripts/ctrl/EditCtrl.js"],"names":["cc","Class","ctor"],"mappings":";;;;;;AAAAA,GAAGC,KAAH,CAAS;AACLC,QADK,kBACC,CAEL;AAHI,CAAT","file":"EditCtrl.js","sourceRoot":"../../../../../assets/scripts/ctrl","sourcesContent":["cc.Class({\n    ctor(){\n        \n    },\n});"]}

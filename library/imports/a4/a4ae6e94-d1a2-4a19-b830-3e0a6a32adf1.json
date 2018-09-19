@@ -1,0 +1,212 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "game.plist",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_spriteFrames": {
+    "hit-slowdown-1-1": {
+      "__uuid__": "8cfc5642-7055-4b9a-b8ae-017315f62138"
+    },
+    "hit-slowdown-1-2": {
+      "__uuid__": "7a3d572f-c0b3-4502-87d6-53a8290df9bc"
+    },
+    "hit-slowdown-1-3": {
+      "__uuid__": "e205e9e6-f4cc-4891-8bd2-c9b877caf2c0"
+    },
+    "hit-slowdown-1-4": {
+      "__uuid__": "91485a8c-4ddf-46a6-a82e-a8d7810bb802"
+    },
+    "hit-slowdown-1-5": {
+      "__uuid__": "c70da916-4190-4386-927c-3a8b1fa7c679"
+    },
+    "hit-slowdown-1-6": {
+      "__uuid__": "cc5383be-45e0-4940-ab94-b2e3fe24905a"
+    },
+    "hit-slowdown-1-7": {
+      "__uuid__": "80fa7b6a-d67b-4413-8232-ab906b2a2da3"
+    },
+    "hit-slowdown-1-8": {
+      "__uuid__": "8f7936f2-493f-4b43-a171-eaa3f24337f5"
+    },
+    "monster-1-1-1": {
+      "__uuid__": "0fe3ee22-d0a7-4381-ac65-6af9e5c946cf"
+    },
+    "monster-10-1-1": {
+      "__uuid__": "99860356-2da2-46f4-bbed-e44e3479e528"
+    },
+    "monster-11-1-1": {
+      "__uuid__": "59d628fb-ba8c-461a-8e14-4e9fbfa3f278"
+    },
+    "monster-2-1-1": {
+      "__uuid__": "4a9d0e00-9362-4ac0-932a-7b12f2697e89"
+    },
+    "monster-3-1-1": {
+      "__uuid__": "afdedd13-9679-4381-91d3-54ca0562a287"
+    },
+    "monster-4-1-1": {
+      "__uuid__": "5074cfd1-7646-444e-8a99-ddb1eed560a7"
+    },
+    "monster-5-1-1": {
+      "__uuid__": "17ea4dbd-7ffb-4d98-903d-82a3e8c1d0f9"
+    },
+    "monster-6-1-1": {
+      "__uuid__": "69d65ed5-817a-4140-9329-e29d2638304b"
+    },
+    "monster-7-1-1": {
+      "__uuid__": "81485c4b-b190-4e1f-9c43-eebe1e802347"
+    },
+    "monster-8-1-1": {
+      "__uuid__": "81a44077-2f5a-4c26-a952-95a5707574f3"
+    },
+    "monster-9-1-1": {
+      "__uuid__": "8fd3f8ae-abaf-4f83-9137-53bb6570abf1"
+    },
+    "muzzle-machinegun-1-1": {
+      "__uuid__": "b9606d8f-7534-422a-8680-49b0cc7cfbc9"
+    },
+    "muzzle-machinegun-1-2": {
+      "__uuid__": "fd81f183-6b45-4c8c-adfe-edf427f0ed8b"
+    },
+    "muzzle-machinegun-2-1": {
+      "__uuid__": "3e1e917c-2f8b-4790-b9e0-49c63e4aa82e"
+    },
+    "muzzle-machinegun-2-2": {
+      "__uuid__": "9b48c413-9149-4e62-897c-2103a0dfb543"
+    },
+    "muzzle-pistol-1-1": {
+      "__uuid__": "847725d1-5ecf-47e6-9bcc-d4193afcb092"
+    },
+    "muzzle-pistol-1-2": {
+      "__uuid__": "55224840-b673-4303-a20c-ae96c986ebe4"
+    },
+    "muzzle-pistol-2-1": {
+      "__uuid__": "ac2d5ef3-3d0b-461f-a6e5-27f3b83727b3"
+    },
+    "muzzle-pistol-2-2": {
+      "__uuid__": "1a1dfb84-6e4f-41ca-95f7-cefdd562b752"
+    },
+    "muzzle-pistol-3-1": {
+      "__uuid__": "e3a6169a-1744-45c2-ab11-043c1cd2706c"
+    },
+    "muzzle-pistol-3-2": {
+      "__uuid__": "19ff4894-78fa-4f1b-8b1e-71936b593e4f"
+    },
+    "ui-circle": {
+      "__uuid__": "cf208835-a71a-412e-812b-d0a1bda437cd"
+    },
+    "ui-ringwave": {
+      "__uuid__": "17199e94-d1d8-4c9e-9c56-1476d8266b12"
+    },
+    "ui-road": {
+      "__uuid__": "92bee43d-4538-4de2-b461-42daa757b104"
+    },
+    "wp-bomb-1-1": {
+      "__uuid__": "4e2ead83-3085-4eb9-a726-f29777141c3e"
+    },
+    "wp-bomb-2-1": {
+      "__uuid__": "9dd1ffc3-a565-42c4-a087-af6aadeda8fb"
+    },
+    "wp-bomb-3-1": {
+      "__uuid__": "e018a109-3d79-47f2-8bf0-f1abaa2d06a3"
+    },
+    "wp-guidemissle-1-1": {
+      "__uuid__": "d7f6f2ba-c709-48a0-851c-8dec64498d9c"
+    },
+    "wp-guidemissle-2-1": {
+      "__uuid__": "3610410f-2ab6-4518-95eb-e32b4edc743e"
+    },
+    "wp-guidemissle-3-1": {
+      "__uuid__": "79f7b8ad-0fed-4f00-bcbf-c128c41564a3"
+    },
+    "wp-guidemissle-4-1": {
+      "__uuid__": "ea7260a0-275f-4536-8f62-d62580a60eeb"
+    },
+    "wp-guidemissle-5-1": {
+      "__uuid__": "a4f79ef6-5a1e-43fc-a477-0788f77d89ae"
+    },
+    "wp-guidemissle-6-1": {
+      "__uuid__": "bd789332-c5b6-4650-bda1-67c2b8adab58"
+    },
+    "wp-guidemissle-7-1": {
+      "__uuid__": "eae3e508-89db-4ecf-917a-cd61381f05c0"
+    },
+    "wp-guidemissle-8-1": {
+      "__uuid__": "00c83046-d408-43b3-a217-290c5f7776e0"
+    },
+    "wp-machinegun-1-1": {
+      "__uuid__": "e4370e24-9a4e-4e79-a30f-ad340ced6cd6"
+    },
+    "wp-machinegun-2-1": {
+      "__uuid__": "2e2e4e9b-2676-4b36-a20c-531071fac358"
+    },
+    "wp-machinegun-3-1": {
+      "__uuid__": "306f2aec-89cd-48a9-ab05-b254c081c9f6"
+    },
+    "wp-machinegun-4-1": {
+      "__uuid__": "10c5d633-e7c6-4818-9c3d-1a36f00918a5"
+    },
+    "wp-machinegun-5-1": {
+      "__uuid__": "e5896091-cb69-47a2-8653-909347e30cd8"
+    },
+    "wp-machinegun-6-1": {
+      "__uuid__": "4c8308c0-d96b-4625-a797-9304d3f4ed73"
+    },
+    "wp-machinegun-7-1": {
+      "__uuid__": "0bc90979-2468-4660-bc6e-e3c17ba68af2"
+    },
+    "wp-machinegun-8-1": {
+      "__uuid__": "1c60fb4a-1b02-461f-8236-ff06cf0f99c5"
+    },
+    "wp-pistol-1-1": {
+      "__uuid__": "2067f0e3-bf58-4b15-867c-442a8f108ef1"
+    },
+    "wp-pistol-2-1": {
+      "__uuid__": "0d230759-1842-4dfe-9342-75c0659412f2"
+    },
+    "wp-pistol-3-1": {
+      "__uuid__": "50b3c5e6-8972-4139-8762-30e3848cfa3e"
+    },
+    "wp-pistol-4-1": {
+      "__uuid__": "8f837470-1a0a-4f63-a049-18ef6da12ad5"
+    },
+    "wp-pistol-5-1": {
+      "__uuid__": "d0a4addb-3622-4a7d-bd55-3fac5661646a"
+    },
+    "wp-pistol-6-1": {
+      "__uuid__": "cc054158-62b3-4247-8ea5-c37881b733f7"
+    },
+    "wp-pistol-7-1": {
+      "__uuid__": "930d430f-11dd-42f2-8f95-9a03793ff1fc"
+    },
+    "wp-pistol-8-1": {
+      "__uuid__": "b5a99e87-6254-4076-8d24-c7d13ee17430"
+    },
+    "wp-slowdown-1-1": {
+      "__uuid__": "575db798-9db0-4618-a5bc-b7d6c6ad8ca1"
+    },
+    "wp-slowdown-2-1": {
+      "__uuid__": "66383529-f3ef-498c-96db-6a41e7b559df"
+    },
+    "wp-slowdown-3-1": {
+      "__uuid__": "70e27d4d-29ed-40ae-92c0-4bcd1fee1a2b"
+    },
+    "wp-slowdown-4-1": {
+      "__uuid__": "a4c22683-6380-459a-a2d5-91d27840262d"
+    },
+    "wp-slowdown-5-1": {
+      "__uuid__": "820ee887-c35c-44c7-a7e5-2d17d2aea0ab"
+    },
+    "wp-slowdown-6-1": {
+      "__uuid__": "45b8d965-7dfc-4ff8-bb74-a29b5fa861fd"
+    },
+    "wp-slowdown-7-1": {
+      "__uuid__": "28e789f5-48cd-4239-91da-7217f159fea6"
+    },
+    "wp-slowdown-8-1": {
+      "__uuid__": "fc6365ae-43cf-4a23-a97b-59ee19e92859"
+    },
+    "wp-slowdown-9-1": {
+      "__uuid__": "2e25e6d4-b08b-4900-bb23-88a06cbe9006"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rocketsmoke1",
+    "texture": "8d4bf186-af05-438b-9629-6f37ab09988f",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      43,
+      43
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      45,
+      45
+    ]
+  }
+}

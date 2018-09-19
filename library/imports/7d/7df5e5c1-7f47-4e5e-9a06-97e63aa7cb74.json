@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "partical-gattlingspark",
+    "texture": "c463f23d-7088-45d2-b92f-14cec5d5dcd4",
+    "atlas": "20a86f30-dd17-408c-ab06-f2c326ea3c17",
+    "rect": [
+      1417,
+      1,
+      81,
+      77
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      91,
+      91
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "editor.plist",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_spriteFrames": {
+    "editor-grid": {
+      "__uuid__": "d0a062ca-8f95-4afd-a6fe-b8f92485bb0e"
+    },
+    "editor-select": {
+      "__uuid__": "5d0edbae-8f49-4c9a-bee5-c6d86dd23e1f"
+    },
+    "editor-x": {
+      "__uuid__": "08d79153-e61c-4ca7-9972-e50d464a975b"
+    },
+    "editor-y": {
+      "__uuid__": "b6616fba-3c8f-4f5e-b2d7-0f81e7b26964"
+    }
+  }
+}

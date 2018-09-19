@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "gattling",
+    "texture": "799a2667-a7a9-467a-8b48-687507e74815",
+    "atlas": "",
+    "rect": [
+      5,
+      5,
+      6,
+      10
+    ],
+    "offset": [
+      0,
+      -2
+    ],
+    "originalSize": [
+      16,
+      16
+    ]
+  }
+}

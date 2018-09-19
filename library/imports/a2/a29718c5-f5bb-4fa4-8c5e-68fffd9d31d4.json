@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "buildcloud",
+    "texture": "81a6aa25-4a4c-43dc-9531-cec13919d47f",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      28,
+      28
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      32,
+      32
+    ]
+  }
+}

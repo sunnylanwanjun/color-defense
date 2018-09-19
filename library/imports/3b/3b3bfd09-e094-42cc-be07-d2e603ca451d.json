@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bullet-pistol-4-2",
+    "texture": "c463f23d-7088-45d2-b92f-14cec5d5dcd4",
+    "atlas": "20a86f30-dd17-408c-ab06-f2c326ea3c17",
+    "rect": [
+      1315,
+      687,
+      28,
+      40
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      64,
+      64
+    ]
+  }
+}

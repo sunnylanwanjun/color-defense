@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "editor",
+    "texture": "46f8e974-bd9a-4654-87bd-2eeb95d9165d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      226,
+      52
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      226,
+      52
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wp-pistol-8-1",
+    "texture": "b222dd70-f1c8-43e9-aa47-4fae948c664f",
+    "atlas": "a4ae6e94-d1a2-4a19-b830-3e0a6a32adf1",
+    "rect": [
+      378,
+      453,
+      92,
+      92
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      104,
+      104
+    ]
+  }
+}

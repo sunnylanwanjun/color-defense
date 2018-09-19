@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ui-road",
+    "texture": "b222dd70-f1c8-43e9-aa47-4fae948c664f",
+    "atlas": "a4ae6e94-d1a2-4a19-b830-3e0a6a32adf1",
+    "rect": [
+      198,
+      257,
+      90,
+      45
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      90,
+      45
+    ],
+    "rotated": 1,
+    "capInsets": [
+      19,
+      0,
+      18,
+      0
+    ]
+  }
+}

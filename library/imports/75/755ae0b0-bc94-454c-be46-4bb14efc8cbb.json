@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "reactorBlowImg",
+    "texture": "fe17feb9-dcd1-4c39-9dd8-81c9fb4303b7",
+    "atlas": "",
+    "rect": [
+      72,
+      127,
+      848,
+      790
+    ],
+    "offset": [
+      -16,
+      -10
+    ],
+    "originalSize": [
+      1024,
+      1024
+    ]
+  }
+}

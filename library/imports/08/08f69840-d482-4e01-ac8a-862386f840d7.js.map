@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../assets/scripts/node/assets/scripts/node/SkinNode.js"],"names":["cc","Class","extends","Node"],"mappings":";;;;;;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAAQF,GAAGG;AADN,CAAT","file":"SkinNode.js","sourceRoot":"../../../../../assets/scripts/node","sourcesContent":["cc.Class({\n    extends:cc.Node,\n})"]}

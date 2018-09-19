@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "gattlingspark",
+    "texture": "f1260ef8-c2c3-4ee3-91bb-37ebf4727cd7",
+    "atlas": "",
+    "rect": [
+      6,
+      8,
+      78,
+      75
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      91,
+      91
+    ]
+  }
+}
